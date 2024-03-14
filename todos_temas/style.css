@@ -1,0 +1,11 @@
+.formulario {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+@media (min-width:767px){
+    .temas {
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+}

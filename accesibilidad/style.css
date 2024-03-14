@@ -1,0 +1,11 @@
+.declaracion {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+@media (min-width:767px){
+    .declaracion {
+      margin-left: 275px;
+      margin-right: 275px;
+    }
+}

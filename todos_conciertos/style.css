@@ -1,0 +1,28 @@
+.entradas-disponibles {
+    color: green !important;
+}
+
+
+.entradas-agotadas {
+    color: red !important;
+}
+
+.lnk-concierto:visited, .lnk-concierto:hover, .lnk-concierto:link {
+    color: black;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.buscador {
+    margin-left: 30px;
+    
+}
+
+.formulario {
+    margin-top: 20px;
+}
+
+.cabecera {
+    color: white;
+    margin-top: 30px;
+}

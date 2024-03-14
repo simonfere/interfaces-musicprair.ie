@@ -1,0 +1,57 @@
+:root {
+  --bgcolorBody: #2d2d2d;
+  --bgcolorNav: #141414;
+  --font: "Rubik", sans-serif;
+}
+
+.navbar {
+  padding: 2rem;
+  background-color: var(--bgcolorNav);
+}
+
+body {
+  font-family: var(--font) !important;
+  background-color: var(--bgcolorBody) !important;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+.bg-image-vertical {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+  .h-custom-2 {
+    height: 100%;
+  }
+}
+
+.title-login,
+.labelFormUser,
+.labelFormPass {
+  color: white;
+}
+
+.login-button {
+  background-color: #141414;
+  color: white;
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+}

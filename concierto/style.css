@@ -1,0 +1,60 @@
+.poster {
+    width: 320px;
+    height: 506px;
+}
+
+.list-group {
+    background-color: #141414 !important;
+}
+
+.camino-migas {
+    margin-left: 100px !important;
+    color: white !important;
+}
+
+.compra-entradas {
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.precio-entradas {
+    color: green;
+    padding-left: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+@media (min-width:767px){
+    body {
+        text-align: center;
+    }
+}
+
+/* .lista-compra-entradas {
+    margin-top: 50px;
+    list-style: none;
+    color: white;
+    font-size: 29px;
+
+}
+
+.elemento-comprar-entradas {
+    margin-bottom: 50px;
+}
+
+.boton-comprar-entradas {
+    margin-left: 13px;
+}
+
+
+
+.fila-concierto {
+    margin-bottom: 10px;
+    margin-top: 10px;
+} */
+
+.boton-comprar-entradas {
+    border-radius: 13px;
+}
